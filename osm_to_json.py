@@ -2,6 +2,8 @@ import requests
 import json
 
 overpass_url = "http://overpass-api.de/api/interpreter"
+
+# Query for all surface parking lots in Indianapolis
 overpass_query = (
     '[out:json];'
     '(way["parking"="surface"](39.7676,-86.1666,39.80339,-86.10255);'
