@@ -3,26 +3,17 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
 # Load JSON data from your file
-with open('input.json', 'r') as json_file:
+with open('data.json', 'r') as json_file:
     data = json.load(json_file)
 
 # Create the root OSM element
-osm = ET.Element('osm', version="0.6", generator="Python script")
+osm = ET.Element('osm', version=str(data['version']), generator=data['generator'])
 
-# Loop through your JSON data and convert it to OSM XML elements
-for feature in data:
-    if 'id' in feature:
-        node = ET.SubElement(osm, 'node', id=str(feature['id']), lat=str(feature['lat']), lon=str(feature['lon']))
-        for key, value in feature.items():
-            if key not in ['id', 'lat', 'lon']:
-                ET.SubElement(node, 'tag', k=key, v=value)
-    elif 'from' in feature and 'to' in feature:
-        way = ET.SubElement(osm, 'way')
-        for key, value in feature.items():
-            if key not in ['from', 'to']:
-                ET.SubElement(way, 'tag', k=key, v=value)
-        for node_id in feature['nodes']:
-            ET.SubElement(way, 'nd', ref=str(node_id))
+# Loop through the 'elements' list and convert them to OSM XML elements
+for element in data['elements']:
+    if element['type'] == 'node':
+        node = ET.SubElement(osm, 'node', id=str(element['id']), lat=str(element['lat']), lon=str(element['lon']))
+    # You can handle other element types (e.g., 'way', 'relation') here if needed
 
 # Create a prettified XML string
 xml_str = minidom.parseString(ET.tostring(osm)).toprettyxml(indent="  ")
