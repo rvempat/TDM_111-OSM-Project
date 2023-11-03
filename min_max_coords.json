@@ -3,1326 +3,1768 @@
         "min_lat": 39.7714941,
         "min_lon": -86.1613741,
         "max_lat": 39.7726647,
-        "max_lon": -86.1605495
+        "max_lon": -86.1605495,
+        "center_point_lat": 39.772079399999996,
+        "center_point_lon": -86.1609618
     },
     "199962004": {
         "min_lat": 39.7723359,
         "min_lon": -86.1540939,
         "max_lat": 39.7725302,
-        "max_lon": -86.1533417
+        "max_lon": -86.1533417,
+        "center_point_lat": 39.772433050000004,
+        "center_point_lon": -86.15371780000001
     },
     "199962006": {
         "min_lat": 39.7717312,
         "min_lon": -86.1530955,
         "max_lat": 39.7722735,
-        "max_lon": -86.1526168
+        "max_lon": -86.1526168,
+        "center_point_lat": 39.772002349999994,
+        "center_point_lon": -86.15285615
     },
     "199964313": {
         "min_lat": 39.7701316,
         "min_lon": -86.1632547,
         "max_lat": 39.7712877,
-        "max_lon": -86.161823
+        "max_lon": -86.161823,
+        "center_point_lat": 39.77070965,
+        "center_point_lon": -86.16253885
     },
     "199964453": {
         "min_lat": 39.7692299,
         "min_lon": -86.1631214,
         "max_lat": 39.7698901,
-        "max_lon": -86.1618563
+        "max_lon": -86.1618563,
+        "center_point_lat": 39.76956,
+        "center_point_lon": -86.16248884999999
     },
     "199965706": {
         "min_lat": 39.77291,
         "min_lon": -86.1605251,
         "max_lat": 39.7740484,
-        "max_lon": -86.1597897
+        "max_lon": -86.1597897,
+        "center_point_lat": 39.7734792,
+        "center_point_lon": -86.1601574
     },
     "199965715": {
         "min_lat": 39.7729263,
         "min_lon": -86.1613244,
         "max_lat": 39.7736319,
-        "max_lon": -86.160626
+        "max_lon": -86.160626,
+        "center_point_lat": 39.773279099999996,
+        "center_point_lon": -86.1609752
     },
     "199965717": {
         "min_lat": 39.7731182,
         "min_lon": -86.1594925,
         "max_lat": 39.7734274,
-        "max_lon": -86.1590795
+        "max_lon": -86.1590795,
+        "center_point_lat": 39.7732728,
+        "center_point_lon": -86.15928600000001
     },
     "199965718": {
         "min_lat": 39.7734418,
         "min_lon": -86.1594845,
         "max_lat": 39.7740582,
-        "max_lon": -86.15802
+        "max_lon": -86.15802,
+        "center_point_lat": 39.77375,
+        "center_point_lon": -86.15875224999999
     },
     "199966212": {
         "min_lat": 39.7719926,
         "min_lon": -86.1620338,
         "max_lat": 39.7724172,
-        "max_lon": -86.1616476
+        "max_lon": -86.1616476,
+        "center_point_lat": 39.7722049,
+        "center_point_lon": -86.1618407
     },
     "199966213": {
         "min_lat": 39.7721862,
         "min_lon": -86.1624455,
         "max_lat": 39.7726791,
-        "max_lon": -86.1616677
+        "max_lon": -86.1616677,
+        "center_point_lat": 39.77243265,
+        "center_point_lon": -86.1620566
     },
     "199970556": {
         "min_lat": 39.7716305,
         "min_lon": -86.1647764,
         "max_lat": 39.7727842,
-        "max_lon": -86.1634996
+        "max_lon": -86.1634996,
+        "center_point_lat": 39.77220735,
+        "center_point_lon": -86.164138
     },
     "199970563": {
         "min_lat": 39.7733264,
         "min_lon": -86.1644679,
         "max_lat": 39.7741262,
-        "max_lon": -86.1634219
+        "max_lon": -86.1634219,
+        "center_point_lat": 39.7737263,
+        "center_point_lon": -86.1639449
     },
     "200820891": {
         "min_lat": 39.7752439,
         "min_lon": -86.1617649,
         "max_lat": 39.7754745,
-        "max_lon": -86.1615584
+        "max_lon": -86.1615584,
+        "center_point_lat": 39.7753592,
+        "center_point_lon": -86.16166165
     },
     "200820907": {
         "min_lat": 39.7747203,
         "min_lon": -86.1622772,
         "max_lat": 39.7750849,
-        "max_lon": -86.1615417
+        "max_lon": -86.1615417,
+        "center_point_lat": 39.774902600000004,
+        "center_point_lon": -86.16190945
     },
     "200823305": {
         "min_lat": 39.774215,
         "min_lon": -86.159463,
         "max_lat": 39.7747312,
-        "max_lon": -86.1589172
+        "max_lon": -86.1589172,
+        "center_point_lat": 39.774473099999994,
+        "center_point_lon": -86.1591901
     },
     "200823312": {
         "min_lat": 39.7748481,
         "min_lon": -86.1592324,
         "max_lat": 39.7750381,
-        "max_lon": -86.1589051
+        "max_lon": -86.1589051,
+        "center_point_lat": 39.7749431,
+        "center_point_lon": -86.15906874999999
     },
     "200823503": {
         "min_lat": 39.7750292,
         "min_lon": -86.1588274,
         "max_lat": 39.7754395,
-        "max_lon": -86.1585377
+        "max_lon": -86.1585377,
+        "center_point_lat": 39.77523435,
+        "center_point_lon": -86.15868255000001
     },
     "201177243": {
         "min_lat": 39.7776826,
         "min_lon": -86.1629499,
         "max_lat": 39.778047,
-        "max_lon": -86.1622579
+        "max_lon": -86.1622579,
+        "center_point_lat": 39.7778648,
+        "center_point_lon": -86.1626039
     },
     "201177263": {
         "min_lat": 39.7777111,
         "min_lon": -86.1641253,
         "max_lat": 39.7780718,
-        "max_lon": -86.1632771
+        "max_lon": -86.1632771,
+        "center_point_lat": 39.77789145,
+        "center_point_lon": -86.16370119999999
     },
     "201182150": {
         "min_lat": 39.7777774,
         "min_lon": -86.1610053,
         "max_lat": 39.7778925,
-        "max_lon": -86.1605204
+        "max_lon": -86.1605204,
+        "center_point_lat": 39.77783495,
+        "center_point_lon": -86.16076285
     },
     "201182152": {
         "min_lat": 39.7785711,
         "min_lon": -86.1603348,
         "max_lat": 39.7786675,
-        "max_lon": -86.1600263
+        "max_lon": -86.1600263,
+        "center_point_lat": 39.7786193,
+        "center_point_lon": -86.16018055
     },
     "201182172": {
         "min_lat": 39.7781542,
         "min_lon": -86.1603643,
         "max_lat": 39.7784469,
-        "max_lon": -86.159632
+        "max_lon": -86.159632,
+        "center_point_lat": 39.77830055,
+        "center_point_lon": -86.15999815
     },
     "201182174": {
         "min_lat": 39.7775349,
         "min_lon": -86.1603537,
         "max_lat": 39.7779893,
-        "max_lon": -86.1596661
+        "max_lon": -86.1596661,
+        "center_point_lat": 39.777762100000004,
+        "center_point_lon": -86.1600099
     },
     "201182179": {
         "min_lat": 39.7784593,
         "min_lon": -86.1600424,
         "max_lat": 39.7786675,
-        "max_lon": -86.1596535
+        "max_lon": -86.1596535,
+        "center_point_lat": 39.778563399999996,
+        "center_point_lon": -86.15984795
     },
     "201182183": {
         "min_lat": 39.7762901,
         "min_lon": -86.1622156,
         "max_lat": 39.7767068,
-        "max_lon": -86.1615239
+        "max_lon": -86.1615239,
+        "center_point_lat": 39.77649845,
+        "center_point_lon": -86.16186975
     },
     "201182184": {
         "min_lat": 39.7770857,
         "min_lon": -86.1603683,
         "max_lat": 39.7772879,
-        "max_lon": -86.1596772
+        "max_lon": -86.1596772,
+        "center_point_lat": 39.777186799999996,
+        "center_point_lon": -86.16002275
     },
     "201182187": {
         "min_lat": 39.7769147,
         "min_lon": -86.1621988,
         "max_lat": 39.7771896,
-        "max_lon": -86.1614961
+        "max_lon": -86.1614961,
+        "center_point_lat": 39.77705215,
+        "center_point_lon": -86.16184745
     },
     "201182189": {
         "min_lat": 39.7757026,
         "min_lon": -86.1607162,
         "max_lat": 39.7761754,
-        "max_lon": -86.1606003
+        "max_lon": -86.1606003,
+        "center_point_lat": 39.775939,
+        "center_point_lon": -86.16065825
     },
     "201182190": {
         "min_lat": 39.7758662,
         "min_lon": -86.1622075,
         "max_lat": 39.7761465,
-        "max_lon": -86.1615417
+        "max_lon": -86.1615417,
+        "center_point_lat": 39.77600635,
+        "center_point_lon": -86.1618746
     },
     "201182194": {
         "min_lat": 39.7766457,
         "min_lon": -86.160383,
         "max_lat": 39.7767567,
-        "max_lon": -86.159695
+        "max_lon": -86.159695,
+        "center_point_lat": 39.776701200000005,
+        "center_point_lon": -86.160039
     },
     "201182197": {
         "min_lat": 39.7765595,
         "min_lon": -86.1617885,
         "max_lat": 39.776699,
-        "max_lon": -86.1614834
+        "max_lon": -86.1614834,
+        "center_point_lat": 39.77662925,
+        "center_point_lon": -86.16163595
     },
     "201182198": {
         "min_lat": 39.7781206,
         "min_lon": -86.1611402,
         "max_lat": 39.7787099,
-        "max_lon": -86.1604407
+        "max_lon": -86.1604407,
+        "center_point_lat": 39.77841525,
+        "center_point_lon": -86.16079045000001
     },
     "201182199": {
         "min_lat": 39.7772714,
         "min_lon": -86.1603607,
         "max_lat": 39.7775394,
-        "max_lon": -86.1596731
+        "max_lon": -86.1596731,
+        "center_point_lat": 39.7774054,
+        "center_point_lon": -86.1600169
     },
     "201182203": {
         "min_lat": 39.7758559,
         "min_lon": -86.1601443,
         "max_lat": 39.776128,
-        "max_lon": -86.1597232
+        "max_lon": -86.1597232,
+        "center_point_lat": 39.775991950000005,
+        "center_point_lon": -86.15993375
     },
     "201182204": {
         "min_lat": 39.7765217,
         "min_lon": -86.1611716,
         "max_lat": 39.7767629,
-        "max_lon": -86.1605011
+        "max_lon": -86.1605011,
+        "center_point_lat": 39.776642300000006,
+        "center_point_lon": -86.16083635000001
     },
     "201182206": {
         "min_lat": 39.777305,
         "min_lon": -86.1622002,
         "max_lat": 39.7774741,
-        "max_lon": -86.1614304
+        "max_lon": -86.1614304,
+        "center_point_lat": 39.777389549999995,
+        "center_point_lon": -86.1618153
     },
     "201382979": {
         "min_lat": 39.7810999,
         "min_lon": -86.1649079,
         "max_lat": 39.7821325,
-        "max_lon": -86.1631295
+        "max_lon": -86.1631295,
+        "center_point_lat": 39.7816162,
+        "center_point_lon": -86.1640187
     },
     "201386185": {
         "min_lat": 39.7822995,
         "min_lon": -86.166772,
         "max_lat": 39.7829199,
-        "max_lon": -86.1645908
+        "max_lon": -86.1645908,
+        "center_point_lat": 39.7826097,
+        "center_point_lon": -86.1656814
     },
     "201387616": {
         "min_lat": 39.7823139,
         "min_lon": -86.1643419,
         "max_lat": 39.7831625,
-        "max_lon": -86.1631258
+        "max_lon": -86.1631258,
+        "center_point_lat": 39.7827382,
+        "center_point_lon": -86.16373385
     },
     "201529543": {
         "min_lat": 39.7801889,
         "min_lon": -86.163709,
         "max_lat": 39.7807867,
-        "max_lon": -86.1631288
+        "max_lon": -86.1631288,
+        "center_point_lat": 39.7804878,
+        "center_point_lon": -86.1634189
     },
     "201529545": {
         "min_lat": 39.7782245,
         "min_lon": -86.1637975,
         "max_lat": 39.7787687,
-        "max_lon": -86.1632441
+        "max_lon": -86.1632441,
+        "center_point_lat": 39.7784966,
+        "center_point_lon": -86.1635208
     },
     "201529546": {
         "min_lat": 39.7795561,
         "min_lon": -86.1653398,
         "max_lat": 39.7808856,
-        "max_lon": -86.1642366
+        "max_lon": -86.1642366,
+        "center_point_lat": 39.78022085,
+        "center_point_lon": -86.1647882
     },
     "201529552": {
         "min_lat": 39.7787543,
         "min_lon": -86.1638431,
         "max_lat": 39.7792838,
-        "max_lon": -86.1631825
+        "max_lon": -86.1631825,
+        "center_point_lat": 39.77901905,
+        "center_point_lon": -86.1635128
     },
     "201529564": {
         "min_lat": 39.7808011,
         "min_lon": -86.1637591,
         "max_lat": 39.7809325,
-        "max_lon": -86.163322
+        "max_lon": -86.163322,
+        "center_point_lat": 39.7808668,
+        "center_point_lon": -86.16354055
     },
     "201529582": {
         "min_lat": 39.7803822,
         "min_lon": -86.164212,
         "max_lat": 39.7809104,
-        "max_lon": -86.1637806
+        "max_lon": -86.1637806,
+        "center_point_lat": 39.7806463,
+        "center_point_lon": -86.16399630000001
     },
     "201536069": {
         "min_lat": 39.780427,
         "min_lon": -86.1620688,
         "max_lat": 39.7806531,
-        "max_lon": -86.1613646
+        "max_lon": -86.1613646,
+        "center_point_lat": 39.78054005,
+        "center_point_lon": -86.1617167
     },
     "201536074": {
         "min_lat": 39.7798321,
         "min_lon": -86.1627675,
         "max_lat": 39.7801642,
-        "max_lon": -86.1622169
+        "max_lon": -86.1622169,
+        "center_point_lat": 39.77999815,
+        "center_point_lon": -86.1624922
     },
     "201536075": {
         "min_lat": 39.7794675,
         "min_lon": -86.162105,
         "max_lat": 39.7801559,
-        "max_lon": -86.1613889
+        "max_lon": -86.1613889,
+        "center_point_lat": 39.779811699999996,
+        "center_point_lon": -86.16174695000001
     },
     "201536076": {
         "min_lat": 39.7787084,
         "min_lon": -86.1621452,
         "max_lat": 39.7790531,
-        "max_lon": -86.1614251
+        "max_lon": -86.1614251,
+        "center_point_lat": 39.77888075,
+        "center_point_lon": -86.16178515
     },
     "201536081": {
         "min_lat": 39.7806503,
         "min_lon": -86.1620569,
         "max_lat": 39.7809372,
-        "max_lon": -86.1613942
+        "max_lon": -86.1613942,
+        "center_point_lat": 39.78079375,
+        "center_point_lon": -86.16172555
     },
     "201541341": {
         "min_lat": 39.7800199,
         "min_lon": -86.1610241,
         "max_lat": 39.7809617,
-        "max_lon": -86.1603313
+        "max_lon": -86.1603313,
+        "center_point_lat": 39.780490799999995,
+        "center_point_lon": -86.16067770000001
     },
     "201541342": {
         "min_lat": 39.7787479,
         "min_lon": -86.1610831,
         "max_lat": 39.7793211,
-        "max_lon": -86.1603903
+        "max_lon": -86.1603903,
+        "center_point_lat": 39.779034499999995,
+        "center_point_lon": -86.1607367
     },
     "201541343": {
         "min_lat": 39.7800261,
         "min_lon": -86.1610474,
         "max_lat": 39.7803641,
-        "max_lon": -86.1605735
+        "max_lon": -86.1605735,
+        "center_point_lat": 39.7801951,
+        "center_point_lon": -86.16081045
     },
     "201541845": {
         "min_lat": 39.7814793,
         "min_lon": -86.1610831,
         "max_lat": 39.781778,
-        "max_lon": -86.1603259
+        "max_lon": -86.1603259,
+        "center_point_lat": 39.78162865,
+        "center_point_lon": -86.16070450000001
     },
     "201541847": {
         "min_lat": 39.7817699,
         "min_lon": -86.161042,
         "max_lat": 39.7820564,
-        "max_lon": -86.1604171
+        "max_lon": -86.1604171,
+        "center_point_lat": 39.78191315,
+        "center_point_lon": -86.16072955
     },
     "201541849": {
         "min_lat": 39.7811369,
         "min_lon": -86.1610563,
         "max_lat": 39.7814216,
-        "max_lon": -86.1603455
+        "max_lon": -86.1603455,
+        "center_point_lat": 39.78127925,
+        "center_point_lon": -86.1607009
     },
     "201542285": {
         "min_lat": 39.7800158,
         "min_lon": -86.1602516,
         "max_lat": 39.7809658,
-        "max_lon": -86.1595569
+        "max_lon": -86.1595569,
+        "center_point_lat": 39.780490799999995,
+        "center_point_lon": -86.15990425
     },
     "201542288": {
         "min_lat": 39.7794139,
         "min_lon": -86.1602918,
         "max_lat": 39.77962,
-        "max_lon": -86.1595918
+        "max_lon": -86.1595918,
+        "center_point_lat": 39.77951695,
+        "center_point_lon": -86.1599418
     },
     "201542292": {
         "min_lat": 39.7811186,
         "min_lon": -86.1602355,
         "max_lat": 39.781471,
-        "max_lon": -86.1598412
+        "max_lon": -86.1598412,
+        "center_point_lat": 39.7812948,
+        "center_point_lon": -86.16003835000001
     },
     "201542325": {
         "min_lat": 39.7789666,
         "min_lon": -86.1603267,
         "max_lat": 39.7793147,
-        "max_lon": -86.1599887
+        "max_lon": -86.1599887,
+        "center_point_lat": 39.77914065,
+        "center_point_lon": -86.1601577
     },
     "201542326": {
         "min_lat": 39.7789602,
         "min_lon": -86.1598573,
         "max_lat": 39.7792758,
-        "max_lon": -86.1596097
+        "max_lon": -86.1596097,
+        "center_point_lat": 39.779118,
+        "center_point_lon": -86.1597335
     },
     "201575030": {
         "min_lat": 39.7756609,
         "min_lon": -86.1594096,
         "max_lat": 39.7767357,
-        "max_lon": -86.1586782
+        "max_lon": -86.1586782,
+        "center_point_lat": 39.776198300000004,
+        "center_point_lon": -86.1590439
     },
     "201575034": {
         "min_lat": 39.7786306,
         "min_lon": -86.1593021,
         "max_lat": 39.7791047,
-        "max_lon": -86.1586173
+        "max_lon": -86.1586173,
+        "center_point_lat": 39.778867649999995,
+        "center_point_lon": -86.1589597
     },
     "201575037": {
         "min_lat": 39.7772412,
         "min_lon": -86.1593504,
         "max_lat": 39.7779526,
-        "max_lon": -86.1586468
+        "max_lon": -86.1586468,
+        "center_point_lat": 39.7775969,
+        "center_point_lon": -86.15899859999999
     },
     "201575038": {
         "min_lat": 39.7780903,
         "min_lon": -86.1593557,
         "max_lat": 39.7783974,
-        "max_lon": -86.1586307
+        "max_lon": -86.1586307,
+        "center_point_lat": 39.77824385,
+        "center_point_lon": -86.1589932
     },
     "201575041": {
         "min_lat": 39.7792992,
         "min_lon": -86.1592994,
         "max_lat": 39.7798282,
-        "max_lon": -86.1577384
+        "max_lon": -86.1577384,
+        "center_point_lat": 39.7795637,
+        "center_point_lon": -86.15851889999999
     },
     "201575367": {
         "min_lat": 39.7798529,
         "min_lon": -86.1584438,
         "max_lat": 39.7803909,
-        "max_lon": -86.1577571
+        "max_lon": -86.1577571,
+        "center_point_lat": 39.7801219,
+        "center_point_lon": -86.15810045
     },
     "201575368": {
         "min_lat": 39.7799045,
         "min_lon": -86.1592002,
         "max_lat": 39.7799844,
-        "max_lon": -86.1585599
+        "max_lon": -86.1585599,
+        "center_point_lat": 39.77994445,
+        "center_point_lon": -86.15888005
     },
     "201575825": {
         "min_lat": 39.7805062,
         "min_lon": -86.1583955,
         "max_lat": 39.7807741,
-        "max_lon": -86.1577537
+        "max_lon": -86.1577537,
+        "center_point_lat": 39.780640149999996,
+        "center_point_lon": -86.15807459999999
     },
     "201576292": {
         "min_lat": 39.7812587,
         "min_lon": -86.1592806,
         "max_lat": 39.7821863,
-        "max_lon": -86.158138
+        "max_lon": -86.158138,
+        "center_point_lat": 39.7817225,
+        "center_point_lon": -86.1587093
     },
     "201589668": {
         "min_lat": 39.7824254,
         "min_lon": -86.1592431,
         "max_lat": 39.7832539,
-        "max_lon": -86.1576686
+        "max_lon": -86.1576686,
+        "center_point_lat": 39.78283965,
+        "center_point_lon": -86.15845585
     },
     "201589670": {
         "min_lat": 39.7813865,
         "min_lon": -86.1603374,
         "max_lat": 39.7823182,
-        "max_lon": -86.1595596
+        "max_lon": -86.1595596,
+        "center_point_lat": 39.78185235,
+        "center_point_lon": -86.1599485
     },
     "201591489": {
         "min_lat": 39.7812585,
         "min_lon": -86.1574004,
         "max_lat": 39.7820705,
-        "max_lon": -86.155885
+        "max_lon": -86.155885,
+        "center_point_lat": 39.781664500000005,
+        "center_point_lon": -86.15664269999999
     },
     "201591492": {
         "min_lat": 39.7801209,
         "min_lon": -86.156636,
         "max_lat": 39.7803476,
-        "max_lon": -86.156129
+        "max_lon": -86.156129,
+        "center_point_lat": 39.78023425,
+        "center_point_lon": -86.1563825
     },
     "201591500": {
         "min_lat": 39.7796221,
         "min_lon": -86.1566521,
         "max_lat": 39.7797725,
-        "max_lon": -86.1559386
+        "max_lon": -86.1559386,
+        "center_point_lat": 39.779697299999995,
+        "center_point_lon": -86.15629535
     },
     "201591505": {
         "min_lat": 39.7792634,
         "min_lon": -86.1566682,
         "max_lat": 39.7796303,
-        "max_lon": -86.1559252
+        "max_lon": -86.1559252,
+        "center_point_lat": 39.77944685,
+        "center_point_lon": -86.1562967
     },
     "201591506": {
         "min_lat": 39.7804837,
         "min_lon": -86.1574058,
         "max_lat": 39.7810485,
-        "max_lon": -86.1567218
+        "max_lon": -86.1567218,
+        "center_point_lat": 39.780766099999994,
+        "center_point_lon": -86.1570638
     },
     "201591510": {
         "min_lat": 39.7798321,
         "min_lon": -86.1570249,
         "max_lat": 39.7799723,
-        "max_lon": -86.1567693
+        "max_lon": -86.1567693,
+        "center_point_lat": 39.779902199999995,
+        "center_point_lon": -86.1568971
     },
     "201591513": {
         "min_lat": 39.780461,
         "min_lon": -86.1566092,
         "max_lat": 39.7806136,
-        "max_lon": -86.156357
+        "max_lon": -86.156357,
+        "center_point_lat": 39.780537300000006,
+        "center_point_lon": -86.1564831
     },
     "201716120": {
         "min_lat": 39.7823553,
         "min_lon": -86.1628534,
         "max_lat": 39.7833571,
-        "max_lon": -86.1613476
+        "max_lon": -86.1613476,
+        "center_point_lat": 39.7828562,
+        "center_point_lon": -86.16210050000001
     },
     "201716122": {
         "min_lat": 39.7823759,
         "min_lon": -86.1609918,
         "max_lat": 39.7833694,
-        "max_lon": -86.1605805
+        "max_lon": -86.1605805,
+        "center_point_lat": 39.78287265,
+        "center_point_lon": -86.16078615
     },
     "201716542": {
         "min_lat": 39.7818946,
         "min_lon": -86.1548015,
         "max_lat": 39.7820669,
-        "max_lon": -86.1542817
+        "max_lon": -86.1542817,
+        "center_point_lat": 39.78198075,
+        "center_point_lon": -86.1545416
     },
     "201716549": {
         "min_lat": 39.7823885,
         "min_lon": -86.1555684,
         "max_lat": 39.7831588,
-        "max_lon": -86.1541468
+        "max_lon": -86.1541468,
+        "center_point_lat": 39.78277365,
+        "center_point_lon": -86.15485760000001
     },
     "201716552": {
         "min_lat": 39.7819657,
         "min_lon": -86.1556462,
         "max_lat": 39.782213,
-        "max_lon": -86.1548818
+        "max_lon": -86.1548818,
+        "center_point_lat": 39.78208935,
+        "center_point_lon": -86.155264
     },
     "201716561": {
         "min_lat": 39.781607,
         "min_lon": -86.1555791,
         "max_lat": 39.7818152,
-        "max_lon": -86.1553753
+        "max_lon": -86.1553753,
+        "center_point_lat": 39.781711099999995,
+        "center_point_lon": -86.1554772
     },
     "201716563": {
         "min_lat": 39.7810979,
         "min_lon": -86.1556408,
         "max_lat": 39.7812978,
-        "max_lon": -86.1548737
+        "max_lon": -86.1548737,
+        "center_point_lat": 39.78119785,
+        "center_point_lon": -86.15525725
     },
     "201716584": {
         "min_lat": 39.7815548,
         "min_lon": -86.1547968,
         "max_lat": 39.7817362,
-        "max_lon": -86.1541352
+        "max_lon": -86.1541352,
+        "center_point_lat": 39.781645499999996,
+        "center_point_lon": -86.154466
     },
     "201716592": {
         "min_lat": 39.7812521,
         "min_lon": -86.1547904,
         "max_lat": 39.7814965,
-        "max_lon": -86.1541568
+        "max_lon": -86.1541568,
+        "center_point_lat": 39.7813743,
+        "center_point_lon": -86.15447359999999
     },
     "201716594": {
         "min_lat": 39.7823988,
         "min_lon": -86.1573088,
         "max_lat": 39.7832031,
-        "max_lon": -86.1558806
+        "max_lon": -86.1558806,
+        "center_point_lat": 39.78280095,
+        "center_point_lon": -86.1565947
     },
     "201717693": {
         "min_lat": 39.7768928,
         "min_lon": -86.1585528,
         "max_lat": 39.77794,
-        "max_lon": -86.1578617
+        "max_lon": -86.1578617,
+        "center_point_lat": 39.7774164,
+        "center_point_lon": -86.15820725
     },
     "201717694": {
         "min_lat": 39.7787789,
         "min_lon": -86.1580977,
         "max_lat": 39.7789665,
-        "max_lon": -86.1577625
+        "max_lon": -86.1577625,
+        "center_point_lat": 39.7788727,
+        "center_point_lon": -86.1579301
     },
     "201717696": {
         "min_lat": 39.7782732,
         "min_lon": -86.1585282,
         "max_lat": 39.7784192,
-        "max_lon": -86.1578071
+        "max_lon": -86.1578071,
+        "center_point_lat": 39.7783462,
+        "center_point_lon": -86.15816765
     },
     "201718457": {
         "min_lat": 39.7780435,
         "min_lon": -86.15518,
         "max_lat": 39.7784712,
-        "max_lon": -86.1547175
+        "max_lon": -86.1547175,
+        "center_point_lat": 39.778257350000004,
+        "center_point_lon": -86.15494875
     },
     "201718463": {
         "min_lat": 39.7781207,
         "min_lon": -86.1557256,
         "max_lat": 39.7782893,
-        "max_lon": -86.1552365
+        "max_lon": -86.1552365,
+        "center_point_lat": 39.778205,
+        "center_point_lon": -86.15548104999999
     },
     "201718660": {
         "min_lat": 39.7803044,
         "min_lon": -86.1554378,
         "max_lat": 39.7805943,
-        "max_lon": -86.1549774
+        "max_lon": -86.1549774,
+        "center_point_lat": 39.78044935,
+        "center_point_lon": -86.15520760000001
     },
     "201718663": {
         "min_lat": 39.7801843,
         "min_lon": -86.1556685,
         "max_lat": 39.7803099,
-        "max_lon": -86.1549841
+        "max_lon": -86.1549841,
+        "center_point_lat": 39.7802471,
+        "center_point_lon": -86.1553263
     },
     "201718664": {
         "min_lat": 39.7803703,
         "min_lon": -86.1549354,
         "max_lat": 39.7805846,
-        "max_lon": -86.1546404
+        "max_lon": -86.1546404,
+        "center_point_lat": 39.78047745,
+        "center_point_lon": -86.1547879
     },
     "201724367": {
         "min_lat": 39.7793386,
         "min_lon": -86.1556864,
         "max_lat": 39.7794571,
-        "max_lon": -86.1549144
+        "max_lon": -86.1549144,
+        "center_point_lat": 39.77939785,
+        "center_point_lon": -86.15530039999999
     },
     "201724384": {
         "min_lat": 39.7793358,
         "min_lon": -86.1549169,
         "max_lat": 39.7795839,
-        "max_lon": -86.1545755
+        "max_lon": -86.1545755,
+        "center_point_lat": 39.779459849999995,
+        "center_point_lon": -86.1547462
     },
     "201737519": {
         "min_lat": 39.7754828,
         "min_lon": -86.1513439,
         "max_lat": 39.7766024,
-        "max_lon": -86.150668
+        "max_lon": -86.150668,
+        "center_point_lat": 39.7760426,
+        "center_point_lon": -86.15100595
     },
     "201779588": {
         "min_lat": 39.7815421,
         "min_lon": -86.1538027,
         "max_lat": 39.7818698,
-        "max_lon": -86.1533467
+        "max_lon": -86.1533467,
+        "center_point_lat": 39.78170595,
+        "center_point_lon": -86.15357470000001
     },
     "202553922": {
         "min_lat": 39.7818758,
         "min_lon": -86.1458425,
         "max_lat": 39.7822372,
-        "max_lon": -86.1453558
+        "max_lon": -86.1453558,
+        "center_point_lat": 39.782056499999996,
+        "center_point_lon": -86.14559915000001
     },
     "202629810": {
         "min_lat": 39.780956,
         "min_lon": -86.1456562,
         "max_lat": 39.781285,
-        "max_lon": -86.1451932
+        "max_lon": -86.1451932,
+        "center_point_lat": 39.7811205,
+        "center_point_lon": -86.1454247
     },
     "202633681": {
         "min_lat": 39.7787556,
         "min_lon": -86.1457016,
         "max_lat": 39.7793021,
-        "max_lon": -86.1452487
+        "max_lon": -86.1452487,
+        "center_point_lat": 39.77902885,
+        "center_point_lon": -86.14547515
     },
     "202653982": {
         "min_lat": 39.7785213,
         "min_lon": -86.1428142,
         "max_lat": 39.7792581,
-        "max_lon": -86.1418329
+        "max_lon": -86.1418329,
+        "center_point_lat": 39.7788897,
+        "center_point_lon": -86.14232355
     },
     "202653984": {
         "min_lat": 39.7797357,
         "min_lon": -86.1421065,
         "max_lat": 39.7802246,
-        "max_lon": -86.1416344
+        "max_lon": -86.1416344,
+        "center_point_lat": 39.77998015,
+        "center_point_lon": -86.14187045
     },
     "203438870": {
         "min_lat": 39.780335,
         "min_lon": -86.1538552,
         "max_lat": 39.7805627,
-        "max_lon": -86.1535993
+        "max_lon": -86.1535993,
+        "center_point_lat": 39.78044885,
+        "center_point_lon": -86.15372725
     },
     "203586285": {
         "min_lat": 39.773336,
         "min_lon": -86.1540735,
         "max_lat": 39.7739077,
-        "max_lon": -86.1533717
+        "max_lon": -86.1533717,
+        "center_point_lat": 39.77362185,
+        "center_point_lon": -86.1537226
     },
     "203586677": {
         "min_lat": 39.7736164,
         "min_lon": -86.1533078,
         "max_lat": 39.7736335,
-        "max_lon": -86.152405
+        "max_lon": -86.152405,
+        "center_point_lat": 39.77362495,
+        "center_point_lon": -86.15285639999999
     },
     "203586680": {
         "min_lat": 39.7731161,
         "min_lon": -86.1531219,
         "max_lat": 39.7733095,
-        "max_lon": -86.1531193
+        "max_lon": -86.1531193,
+        "center_point_lat": 39.7732128,
+        "center_point_lon": -86.1531206
     },
     "203586684": {
         "min_lat": 39.7733181,
         "min_lon": -86.1532899,
         "max_lat": 39.7739404,
-        "max_lon": -86.1525474
+        "max_lon": -86.1525474,
+        "center_point_lat": 39.77362925,
+        "center_point_lon": -86.15291865
     },
     "203586686": {
         "min_lat": 39.7729592,
         "min_lon": -86.1533277,
         "max_lat": 39.7729922,
-        "max_lon": -86.1526457
+        "max_lon": -86.1526457,
+        "center_point_lat": 39.7729757,
+        "center_point_lon": -86.1529867
     },
     "203586687": {
         "min_lat": 39.7726762,
         "min_lon": -86.153486,
         "max_lat": 39.7730828,
-        "max_lon": -86.1526052
+        "max_lon": -86.1526052,
+        "center_point_lat": 39.7728795,
+        "center_point_lon": -86.1530456
     },
     "203586688": {
         "min_lat": 39.7734282,
         "min_lon": -86.1533146,
         "max_lat": 39.773451,
-        "max_lon": -86.1524117
+        "max_lon": -86.1524117,
+        "center_point_lat": 39.7734396,
+        "center_point_lon": -86.15286315
     },
     "203587951": {
         "min_lat": 39.7735861,
         "min_lon": -86.1524063,
         "max_lat": 39.7739619,
-        "max_lon": -86.1516306
+        "max_lon": -86.1516306,
+        "center_point_lat": 39.773774,
+        "center_point_lon": -86.15201845
     },
     "203587953": {
         "min_lat": 39.772803,
         "min_lon": -86.1522805,
         "max_lat": 39.7738488,
-        "max_lon": -86.1509294
+        "max_lon": -86.1509294,
+        "center_point_lat": 39.7733259,
+        "center_point_lon": -86.15160495
     },
     "203588081": {
         "min_lat": 39.7727491,
         "min_lon": -86.1520839,
         "max_lat": 39.7737244,
-        "max_lon": -86.1506948
+        "max_lon": -86.1506948,
+        "center_point_lat": 39.773236749999995,
+        "center_point_lon": -86.15138934999999
     },
     "203590199": {
         "min_lat": 39.7713001,
         "min_lon": -86.1516148,
         "max_lat": 39.772438,
-        "max_lon": -86.1507887
+        "max_lon": -86.1507887,
+        "center_point_lat": 39.77186905,
+        "center_point_lon": -86.15120175000001
     },
     "242890798": {
         "min_lat": 39.7737539,
         "min_lon": -86.1522046,
         "max_lat": 39.7737654,
-        "max_lon": -86.1517434
+        "max_lon": -86.1517434,
+        "center_point_lat": 39.77375965,
+        "center_point_lon": -86.151974
     },
     "242890915": {
         "min_lat": 39.7736809,
         "min_lon": -86.1516334,
         "max_lat": 39.7737551,
-        "max_lon": -86.1512417
+        "max_lon": -86.1512417,
+        "center_point_lat": 39.773718,
+        "center_point_lon": -86.15143755
     },
     "257752802": {
         "min_lat": 39.7886017,
         "min_lon": -86.1628326,
         "max_lat": 39.7888538,
-        "max_lon": -86.1622103
+        "max_lon": -86.1622103,
+        "center_point_lat": 39.78872775,
+        "center_point_lon": -86.16252145
     },
     "257753925": {
         "min_lat": 39.7872115,
         "min_lon": -86.1634166,
         "max_lat": 39.7875276,
-        "max_lon": -86.1631873
+        "max_lon": -86.1631873,
+        "center_point_lat": 39.787369549999994,
+        "center_point_lon": -86.16330195
     },
     "257920615": {
         "min_lat": 39.7865303,
         "min_lon": -86.1635584,
         "max_lat": 39.7870169,
-        "max_lon": -86.1631274
+        "max_lon": -86.1631274,
+        "center_point_lat": 39.786773600000004,
+        "center_point_lon": -86.1633429
     },
     "257920625": {
         "min_lat": 39.785985,
         "min_lon": -86.1628698,
         "max_lat": 39.7864901,
-        "max_lon": -86.1613953
+        "max_lon": -86.1613953,
+        "center_point_lat": 39.786237549999996,
+        "center_point_lon": -86.16213255
     },
     "258060254": {
         "min_lat": 39.7835917,
         "min_lon": -86.1628354,
         "max_lat": 39.7844205,
-        "max_lon": -86.1623446
+        "max_lon": -86.1623446,
+        "center_point_lat": 39.7840061,
+        "center_point_lon": -86.16259
     },
     "258132226": {
         "min_lat": 39.785656,
         "min_lon": -86.1609341,
         "max_lat": 39.7858468,
-        "max_lon": -86.1603745
+        "max_lon": -86.1603745,
+        "center_point_lat": 39.7857514,
+        "center_point_lon": -86.1606543
     },
     "258132408": {
         "min_lat": 39.783547,
         "min_lon": -86.161063,
         "max_lat": 39.7845986,
-        "max_lon": -86.1603332
+        "max_lon": -86.1603332,
+        "center_point_lat": 39.784072800000004,
+        "center_point_lon": -86.16069809999999
     },
     "258913462": {
         "min_lat": 39.7835389,
         "min_lon": -86.1592936,
         "max_lat": 39.7842447,
-        "max_lon": -86.1576164
+        "max_lon": -86.1576164,
+        "center_point_lat": 39.783891800000006,
+        "center_point_lon": -86.158455
     },
     "259029113": {
         "min_lat": 39.7884899,
         "min_lon": -86.1612918,
         "max_lat": 39.7889785,
-        "max_lon": -86.1604383
+        "max_lon": -86.1604383,
+        "center_point_lat": 39.7887342,
+        "center_point_lon": -86.16086505
     },
     "259033204": {
         "min_lat": 39.7895192,
         "min_lon": -86.1612902,
         "max_lat": 39.789949,
-        "max_lon": -86.160861
+        "max_lon": -86.160861,
+        "center_point_lat": 39.789734100000004,
+        "center_point_lon": -86.1610756
     },
     "259033206": {
         "min_lat": 39.7900301,
         "min_lon": -86.1612928,
         "max_lat": 39.7906441,
-        "max_lon": -86.1604298
+        "max_lon": -86.1604298,
+        "center_point_lat": 39.7903371,
+        "center_point_lon": -86.1608613
     },
     "259043833": {
         "min_lat": 39.7901974,
         "min_lon": -86.1599268,
         "max_lat": 39.7906825,
-        "max_lon": -86.1592255
+        "max_lon": -86.1592255,
+        "center_point_lat": 39.79043995,
+        "center_point_lon": -86.15957614999999
     },
     "259043834": {
         "min_lat": 39.7899272,
         "min_lon": -86.1599099,
         "max_lat": 39.7902028,
-        "max_lon": -86.1592438
+        "max_lon": -86.1592438,
+        "center_point_lat": 39.790065,
+        "center_point_lon": -86.15957685000001
     },
     "259043839": {
         "min_lat": 39.7885197,
         "min_lon": -86.1598941,
         "max_lat": 39.7891032,
-        "max_lon": -86.1595344
+        "max_lon": -86.1595344,
+        "center_point_lat": 39.78881145,
+        "center_point_lon": -86.15971425000001
     },
     "259044426": {
         "min_lat": 39.7885188,
         "min_lon": -86.158076,
         "max_lat": 39.788734,
-        "max_lon": -86.157555
+        "max_lon": -86.157555,
+        "center_point_lat": 39.7886264,
+        "center_point_lon": -86.1578155
     },
     "259046500": {
         "min_lat": 39.7907954,
         "min_lon": -86.1599187,
         "max_lat": 39.791197,
-        "max_lon": -86.1592299
+        "max_lon": -86.1592299,
+        "center_point_lat": 39.790996199999995,
+        "center_point_lon": -86.1595743
     },
     "259070842": {
         "min_lat": 39.7916286,
         "min_lon": -86.1581195,
         "max_lat": 39.7917486,
-        "max_lon": -86.1574898
+        "max_lon": -86.1574898,
+        "center_point_lat": 39.7916886,
+        "center_point_lon": -86.15780465
     },
     "260454463": {
         "min_lat": 39.793347,
         "min_lon": -86.158954,
         "max_lat": 39.7937248,
-        "max_lon": -86.1575276
+        "max_lon": -86.1575276,
+        "center_point_lat": 39.793535899999995,
+        "center_point_lon": -86.15824079999999
     },
     "260454464": {
         "min_lat": 39.7937659,
         "min_lon": -86.1589866,
         "max_lat": 39.7948884,
-        "max_lon": -86.157538
+        "max_lon": -86.157538,
+        "center_point_lat": 39.79432715,
+        "center_point_lon": -86.1582623
     },
     "261392556": {
         "min_lat": 39.795145,
         "min_lon": -86.1583818,
         "max_lat": 39.7955654,
-        "max_lon": -86.1579487
+        "max_lon": -86.1579487,
+        "center_point_lat": 39.7953552,
+        "center_point_lon": -86.15816525
     },
     "261484781": {
         "min_lat": 39.8004797,
         "min_lon": -86.157998,
         "max_lat": 39.8013991,
-        "max_lon": -86.1570192
+        "max_lon": -86.1570192,
+        "center_point_lat": 39.8009394,
+        "center_point_lon": -86.1575086
     },
     "261484786": {
         "min_lat": 39.8013138,
         "min_lon": -86.1587907,
         "max_lat": 39.8019653,
-        "max_lon": -86.1578301
+        "max_lon": -86.1578301,
+        "center_point_lat": 39.801639550000004,
+        "center_point_lon": -86.1583104
     },
     "261485423": {
         "min_lat": 39.7993456,
         "min_lon": -86.1573416,
         "max_lat": 39.7997913,
-        "max_lon": -86.1570745
+        "max_lon": -86.1570745,
+        "center_point_lat": 39.79956845,
+        "center_point_lon": -86.15720805
     },
     "311112013": {
         "min_lat": 39.7735222,
         "min_lon": -86.154403,
         "max_lat": 39.7735317,
-        "max_lon": -86.1542163
+        "max_lon": -86.1542163,
+        "center_point_lat": 39.773526950000004,
+        "center_point_lon": -86.15430965
     },
     "339788133": {
         "min_lat": 39.7731308,
         "min_lon": -86.1530063,
         "max_lat": 39.7732718,
-        "max_lon": -86.1525863
+        "max_lon": -86.1525863,
+        "center_point_lat": 39.7732013,
+        "center_point_lon": -86.1527963
     },
     "352367201": {
         "min_lat": 39.7937526,
         "min_lon": -86.1464886,
         "max_lat": 39.7941432,
-        "max_lon": -86.1460923
+        "max_lon": -86.1460923,
+        "center_point_lat": 39.7939479,
+        "center_point_lon": -86.14629045000001
     },
     "352367207": {
         "min_lat": 39.7937508,
         "min_lon": -86.1470112,
         "max_lat": 39.7941387,
-        "max_lon": -86.1465839
+        "max_lon": -86.1465839,
+        "center_point_lat": 39.793944749999994,
+        "center_point_lon": -86.14679755
     },
     "352368909": {
         "min_lat": 39.7865708,
         "min_lon": -86.1421579,
         "max_lat": 39.7870702,
-        "max_lon": -86.1417469
+        "max_lon": -86.1417469,
+        "center_point_lat": 39.786820500000005,
+        "center_point_lon": -86.14195240000001
     },
     "352370351": {
         "min_lat": 39.7904548,
         "min_lon": -86.1368732,
         "max_lat": 39.7908958,
-        "max_lon": -86.1363753
+        "max_lon": -86.1363753,
+        "center_point_lat": 39.790675300000004,
+        "center_point_lon": -86.13662425
     },
     "394171116": {
         "min_lat": 39.7840828,
         "min_lon": -86.1556641,
         "max_lat": 39.7844164,
-        "max_lon": -86.154934
+        "max_lon": -86.154934,
+        "center_point_lat": 39.784249599999995,
+        "center_point_lon": -86.15529905
     },
     "394171120": {
         "min_lat": 39.783421,
         "min_lon": -86.155638,
         "max_lat": 39.7835431,
-        "max_lon": -86.155072
+        "max_lon": -86.155072,
+        "center_point_lat": 39.78348205,
+        "center_point_lon": -86.155355
     },
     "394367938": {
         "min_lat": 39.797764,
         "min_lon": -86.156921,
         "max_lat": 39.7981836,
-        "max_lon": -86.1564937
+        "max_lon": -86.1564937,
+        "center_point_lat": 39.7979738,
+        "center_point_lon": -86.15670735
     },
     "394367950": {
         "min_lat": 39.7968971,
         "min_lon": -86.1570771,
         "max_lat": 39.7972143,
-        "max_lon": -86.1566749
+        "max_lon": -86.1566749,
+        "center_point_lat": 39.7970557,
+        "center_point_lon": -86.156876
     },
     "394367955": {
         "min_lat": 39.7966093,
         "min_lon": -86.1571419,
         "max_lat": 39.7967071,
-        "max_lon": -86.1567578
+        "max_lon": -86.1567578,
+        "center_point_lat": 39.796658199999996,
+        "center_point_lon": -86.15694984999999
     },
     "394367963": {
         "min_lat": 39.7952585,
         "min_lon": -86.1572212,
         "max_lat": 39.7955709,
-        "max_lon": -86.156679
+        "max_lon": -86.156679,
+        "center_point_lat": 39.7954147,
+        "center_point_lon": -86.15695009999999
     },
     "394369161": {
         "min_lat": 39.7933202,
         "min_lon": -86.1571761,
         "max_lat": 39.7935493,
-        "max_lon": -86.1566304
+        "max_lon": -86.1566304,
+        "center_point_lat": 39.79343475,
+        "center_point_lon": -86.15690325
     },
     "394369163": {
         "min_lat": 39.7930571,
         "min_lon": -86.1571849,
         "max_lat": 39.7932218,
-        "max_lon": -86.1566348
+        "max_lon": -86.1566348,
+        "center_point_lat": 39.79313945,
+        "center_point_lon": -86.15690985
     },
     "394369177": {
         "min_lat": 39.7910798,
         "min_lon": -86.1568857,
         "max_lat": 39.7911779,
-        "max_lon": -86.1566047
+        "max_lon": -86.1566047,
+        "center_point_lat": 39.79112885,
+        "center_point_lon": -86.1567452
     },
     "394369179": {
         "min_lat": 39.7909544,
         "min_lon": -86.1571288,
         "max_lat": 39.7910713,
-        "max_lon": -86.1566051
+        "max_lon": -86.1566051,
+        "center_point_lat": 39.79101285,
+        "center_point_lon": -86.15686695
     },
     "394369181": {
         "min_lat": 39.7905202,
         "min_lon": -86.1571559,
         "max_lat": 39.7906871,
-        "max_lon": -86.1565953
+        "max_lon": -86.1565953,
+        "center_point_lat": 39.79060365,
+        "center_point_lon": -86.1568756
     },
     "395055400": {
         "min_lat": 39.7823246,
         "min_lon": -86.1537607,
         "max_lat": 39.783135,
-        "max_lon": -86.1523157
+        "max_lon": -86.1523157,
+        "center_point_lat": 39.7827298,
+        "center_point_lon": -86.1530382
     },
     "395057875": {
         "min_lat": 39.7835449,
         "min_lon": -86.1536669,
         "max_lat": 39.783816,
-        "max_lon": -86.1531363
+        "max_lon": -86.1531363,
+        "center_point_lat": 39.783680450000006,
+        "center_point_lon": -86.1534016
     },
     "395057885": {
         "min_lat": 39.7841066,
         "min_lon": -86.1527489,
         "max_lat": 39.784424,
-        "max_lon": -86.1523074
+        "max_lon": -86.1523074,
+        "center_point_lat": 39.7842653,
+        "center_point_lon": -86.15252815
     },
     "395057891": {
         "min_lat": 39.7841848,
         "min_lon": -86.1548547,
         "max_lat": 39.7843557,
-        "max_lon": -86.1545943
+        "max_lon": -86.1545943,
+        "center_point_lat": 39.78427025,
+        "center_point_lon": -86.1547245
     },
     "395057894": {
         "min_lat": 39.7845168,
         "min_lon": -86.1538105,
         "max_lat": 39.7850864,
-        "max_lon": -86.1531245
+        "max_lon": -86.1531245,
+        "center_point_lat": 39.784801599999994,
+        "center_point_lon": -86.1534675
     },
     "395059518": {
         "min_lat": 39.7850959,
         "min_lon": -86.1533368,
         "max_lat": 39.7854496,
-        "max_lon": -86.1531163
+        "max_lon": -86.1531163,
+        "center_point_lat": 39.785272750000004,
+        "center_point_lon": -86.15322655
     },
     "395059522": {
         "min_lat": 39.7847312,
         "min_lon": -86.1529866,
         "max_lat": 39.7850636,
-        "max_lon": -86.1526426
+        "max_lon": -86.1526426,
+        "center_point_lat": 39.784897400000006,
+        "center_point_lon": -86.1528146
     },
     "395065279": {
         "min_lat": 39.7875153,
         "min_lon": -86.1532275,
         "max_lat": 39.788353,
-        "max_lon": -86.1528838
+        "max_lon": -86.1528838,
+        "center_point_lat": 39.78793415,
+        "center_point_lon": -86.15305565
     },
     "395349532": {
         "min_lat": 39.8030165,
         "min_lon": -86.1534733,
         "max_lat": 39.8032697,
-        "max_lon": -86.1531776
+        "max_lon": -86.1531776,
+        "center_point_lat": 39.8031431,
+        "center_point_lon": -86.15332545000001
     },
     "395979325": {
         "min_lat": 39.789654,
         "min_lon": -86.1470308,
         "max_lat": 39.7901751,
-        "max_lon": -86.1468592
+        "max_lon": -86.1468592,
+        "center_point_lat": 39.78991455,
+        "center_point_lon": -86.14694499999999
     },
     "395979327": {
         "min_lat": 39.7894294,
         "min_lon": -86.1469456,
         "max_lat": 39.7896166,
-        "max_lon": -86.1463875
+        "max_lon": -86.1463875,
+        "center_point_lat": 39.789523,
+        "center_point_lon": -86.14666654999999
     },
     "395979329": {
         "min_lat": 39.7894485,
         "min_lon": -86.1455435,
         "max_lat": 39.7902261,
-        "max_lon": -86.1448889
+        "max_lon": -86.1448889,
+        "center_point_lat": 39.7898373,
+        "center_point_lon": -86.1452162
     },
     "396128717": {
         "min_lat": 39.7885131,
         "min_lon": -86.1529559,
         "max_lat": 39.7887021,
-        "max_lon": -86.1527515
+        "max_lon": -86.1527515,
+        "center_point_lat": 39.788607600000006,
+        "center_point_lon": -86.1528537
     },
     "396129452": {
         "min_lat": 39.7846946,
         "min_lon": -86.1519719,
         "max_lat": 39.7848259,
-        "max_lon": -86.1514941
+        "max_lon": -86.1514941,
+        "center_point_lat": 39.784760250000005,
+        "center_point_lon": -86.15173300000001
     },
     "397685532": {
         "min_lat": 39.772035,
         "min_lon": -86.1587585,
         "max_lat": 39.7723282,
-        "max_lon": -86.1580602
+        "max_lon": -86.1580602,
+        "center_point_lat": 39.772181599999996,
+        "center_point_lon": -86.15840935
     },
     "397687785": {
         "min_lat": 39.7693159,
         "min_lon": -86.1614717,
         "max_lat": 39.7695201,
-        "max_lon": -86.1603417
+        "max_lon": -86.1603417,
+        "center_point_lat": 39.769418,
+        "center_point_lon": -86.1609067
     },
     "397687810": {
         "min_lat": 39.7717435,
         "min_lon": -86.1622393,
         "max_lat": 39.7722787,
-        "max_lon": -86.1616751
+        "max_lon": -86.1616751,
+        "center_point_lat": 39.7720111,
+        "center_point_lon": -86.16195719999999
     },
     "397916690": {
         "min_lat": 39.7779041,
         "min_lon": -86.1621676,
         "max_lat": 39.7780382,
-        "max_lon": -86.1614386
+        "max_lon": -86.1614386,
+        "center_point_lat": 39.77797115,
+        "center_point_lon": -86.1618031
     },
     "397916692": {
         "min_lat": 39.7774882,
         "min_lon": -86.1617236,
         "max_lat": 39.7776342,
-        "max_lon": -86.1614497
+        "max_lon": -86.1614497,
+        "center_point_lat": 39.7775612,
+        "center_point_lon": -86.16158665
     },
     "397916708": {
         "min_lat": 39.7793999,
         "min_lon": -86.1650406,
         "max_lat": 39.7795205,
-        "max_lon": -86.1640774
+        "max_lon": -86.1640774,
+        "center_point_lat": 39.7794602,
+        "center_point_lon": -86.164559
     },
     "398179103": {
         "min_lat": 39.7854746,
         "min_lon": -86.1629082,
         "max_lat": 39.7858136,
-        "max_lon": -86.162487
+        "max_lon": -86.162487,
+        "center_point_lat": 39.7856441,
+        "center_point_lon": -86.1626976
     },
     "432174287": {
         "min_lat": 39.7966602,
         "min_lon": -86.1462453,
         "max_lat": 39.7973386,
-        "max_lon": -86.1449167
+        "max_lon": -86.1449167,
+        "center_point_lat": 39.796999400000004,
+        "center_point_lon": -86.14558099999999
     },
     "432174291": {
         "min_lat": 39.7970335,
         "min_lon": -86.1471111,
         "max_lat": 39.7975223,
-        "max_lon": -86.1465135
+        "max_lon": -86.1465135,
+        "center_point_lat": 39.7972779,
+        "center_point_lon": -86.1468123
     },
     "432174293": {
         "min_lat": 39.7965456,
         "min_lon": -86.1470974,
         "max_lat": 39.7968684,
-        "max_lon": -86.1465775
+        "max_lon": -86.1465775,
+        "center_point_lat": 39.796707,
+        "center_point_lon": -86.14683745
     },
     "510631652": {
         "min_lat": 39.7885336,
         "min_lon": -86.1635456,
         "max_lat": 39.7888644,
-        "max_lon": -86.1631902
+        "max_lon": -86.1631902,
+        "center_point_lat": 39.788699,
+        "center_point_lon": -86.1633679
     },
     "510631671": {
         "min_lat": 39.7907511,
         "min_lon": -86.1641367,
         "max_lat": 39.7909345,
-        "max_lon": -86.1639047
+        "max_lon": -86.1639047,
+        "center_point_lat": 39.7908428,
+        "center_point_lon": -86.16402070000001
     },
     "527980078": {
         "min_lat": 39.7815682,
         "min_lon": -86.1150269,
         "max_lat": 39.7817917,
-        "max_lon": -86.1147227
+        "max_lon": -86.1147227,
+        "center_point_lat": 39.78167995,
+        "center_point_lon": -86.1148748
     },
     "561048493": {
         "min_lat": 39.7975903,
         "min_lon": -86.1552253,
         "max_lat": 39.7977362,
-        "max_lon": -86.1546598
+        "max_lon": -86.1546598,
+        "center_point_lat": 39.79766325,
+        "center_point_lon": -86.15494255
     },
     "667778772": {
         "min_lat": 39.7816941,
         "min_lon": -86.1376709,
         "max_lat": 39.7822816,
-        "max_lon": -86.1369445
+        "max_lon": -86.1369445,
+        "center_point_lat": 39.78198785,
+        "center_point_lon": -86.13730770000001
     },
     "697881678": {
         "min_lat": 39.789879,
         "min_lon": -86.160968,
         "max_lat": 39.7901057,
-        "max_lon": -86.1604121
+        "max_lon": -86.1604121,
+        "center_point_lat": 39.78999235,
+        "center_point_lon": -86.16069005
     },
     "697881701": {
         "min_lat": 39.7887372,
         "min_lon": -86.15953,
         "max_lat": 39.7889675,
-        "max_lon": -86.1594153
+        "max_lon": -86.1594153,
+        "center_point_lat": 39.78885235,
+        "center_point_lon": -86.15947265
     },
     "705002946": {
         "min_lat": 39.7967845,
         "min_lon": -86.1574856,
         "max_lat": 39.7968578,
-        "max_lon": -86.1574008
+        "max_lon": -86.1574008,
+        "center_point_lat": 39.79682115,
+        "center_point_lon": -86.1574432
     },
     "705002956": {
         "min_lat": 39.7966083,
         "min_lon": -86.1579337,
         "max_lat": 39.7968534,
-        "max_lon": -86.1576868
+        "max_lon": -86.1576868,
+        "center_point_lat": 39.79673085,
+        "center_point_lon": -86.15781025
     },
     "705002957": {
         "min_lat": 39.796475,
         "min_lon": -86.1579452,
         "max_lat": 39.7966074,
-        "max_lon": -86.1577159
+        "max_lon": -86.1577159,
+        "center_point_lat": 39.7965412,
+        "center_point_lon": -86.15783055
     },
     "705002958": {
         "min_lat": 39.7964794,
         "min_lon": -86.1575191,
         "max_lat": 39.7965976,
-        "max_lon": -86.1574107
+        "max_lon": -86.1574107,
+        "center_point_lat": 39.7965385,
+        "center_point_lon": -86.15746490000001
     },
     "729684877": {
         "min_lat": 39.7736305,
         "min_lon": -86.1531775,
         "max_lat": 39.7739069,
-        "max_lon": -86.1529767
+        "max_lon": -86.1529767,
+        "center_point_lat": 39.773768700000005,
+        "center_point_lon": -86.15307709999999
     },
     "745019800": {
         "min_lat": 39.7795434,
         "min_lon": -86.1500557,
         "max_lat": 39.780257,
-        "max_lon": -86.1488808
+        "max_lon": -86.1488808,
+        "center_point_lat": 39.7799002,
+        "center_point_lon": -86.14946825
     },
     "810243457": {
         "min_lat": 39.7832052,
         "min_lon": -86.1031247,
         "max_lat": 39.7838629,
-        "max_lon": -86.1025357
+        "max_lon": -86.1025357,
+        "center_point_lat": 39.78353405,
+        "center_point_lon": -86.1028302
     },
     "810259274": {
         "min_lat": 39.7811067,
         "min_lon": -86.1082489,
         "max_lat": 39.7813206,
-        "max_lon": -86.107842
+        "max_lon": -86.107842,
+        "center_point_lat": 39.78121365,
+        "center_point_lon": -86.10804545
     },
     "810259277": {
         "min_lat": 39.7810465,
         "min_lon": -86.1088635,
         "max_lat": 39.7813076,
-        "max_lon": -86.1083751
+        "max_lon": -86.1083751,
+        "center_point_lat": 39.78117705,
+        "center_point_lon": -86.1086193
     },
     "810265901": {
         "min_lat": 39.7785604,
         "min_lon": -86.106368,
         "max_lat": 39.7791004,
-        "max_lon": -86.1052028
+        "max_lon": -86.1052028,
+        "center_point_lat": 39.778830400000004,
+        "center_point_lon": -86.1057854
     },
     "810275351": {
         "min_lat": 39.7675255,
         "min_lon": -86.120424,
         "max_lat": 39.7679814,
-        "max_lon": -86.1197313
+        "max_lon": -86.1197313,
+        "center_point_lat": 39.76775345,
+        "center_point_lon": -86.12007765
     },
     "881312757": {
         "min_lat": 39.7983611,
         "min_lon": -86.1207457,
         "max_lat": 39.7995038,
-        "max_lon": -86.1201476
+        "max_lon": -86.1201476,
+        "center_point_lat": 39.798932449999995,
+        "center_point_lon": -86.12044664999999
     },
     "881317846": {
         "min_lat": 39.8025685,
         "min_lon": -86.1191113,
         "max_lat": 39.803234,
-        "max_lon": -86.1178618
+        "max_lon": -86.1178618,
+        "center_point_lat": 39.802901250000005,
+        "center_point_lon": -86.11848655
     },
     "881319752": {
         "min_lat": 39.7979227,
         "min_lon": -86.1235151,
         "max_lat": 39.7982303,
-        "max_lon": -86.1227622
+        "max_lon": -86.1227622,
+        "center_point_lat": 39.7980765,
+        "center_point_lon": -86.12313865
     },
     "942978833": {
         "min_lat": 39.7778538,
         "min_lon": -86.1457389,
         "max_lat": 39.7781068,
-        "max_lon": -86.1454726
+        "max_lon": -86.1454726,
+        "center_point_lat": 39.7779803,
+        "center_point_lon": -86.14560575
     },
     "1019885974": {
         "min_lat": 39.7886293,
         "min_lon": -86.1359542,
         "max_lat": 39.7887787,
-        "max_lon": -86.1357235
+        "max_lon": -86.1357235,
+        "center_point_lat": 39.788703999999996,
+        "center_point_lon": -86.13583885
     },
     "1024130107": {
         "min_lat": 39.802688,
         "min_lon": -86.1032072,
         "max_lat": 39.8029566,
-        "max_lon": -86.1029778
+        "max_lon": -86.1029778,
+        "center_point_lat": 39.8028223,
+        "center_point_lon": -86.1030925
     },
     "1024130108": {
         "min_lat": 39.8029411,
         "min_lon": -86.1037762,
         "max_lat": 39.8032469,
-        "max_lon": -86.1033644
+        "max_lon": -86.1033644,
+        "center_point_lat": 39.803094,
+        "center_point_lon": -86.1035703
     },
     "1051403809": {
         "min_lat": 39.7865061,
         "min_lon": -86.1378272,
         "max_lat": 39.7865811,
-        "max_lon": -86.1377528
+        "max_lon": -86.1377528,
+        "center_point_lat": 39.7865436,
+        "center_point_lon": -86.13779
     },
     "1051403811": {
         "min_lat": 39.7867453,
         "min_lon": -86.1383393,
         "max_lat": 39.7870271,
-        "max_lon": -86.1377557
+        "max_lon": -86.1377557,
+        "center_point_lat": 39.7868862,
+        "center_point_lon": -86.1380475
     },
     "1051403812": {
         "min_lat": 39.7864113,
         "min_lon": -86.1380487,
         "max_lat": 39.7864969,
-        "max_lon": -86.1378461
+        "max_lon": -86.1378461,
+        "center_point_lat": 39.7864541,
+        "center_point_lon": -86.1379474
     },
     "1051403813": {
         "min_lat": 39.7864062,
         "min_lon": -86.1384027,
         "max_lat": 39.786581,
-        "max_lon": -86.1380487
+        "max_lon": -86.1380487,
+        "center_point_lat": 39.7864936,
+        "center_point_lon": -86.13822569999999
     },
     "1051403814": {
         "min_lat": 39.7863639,
         "min_lon": -86.138881,
         "max_lat": 39.7865798,
-        "max_lon": -86.1385497
+        "max_lon": -86.1385497,
+        "center_point_lat": 39.78647185,
+        "center_point_lon": -86.13871535
     },
     "1051403815": {
         "min_lat": 39.7863643,
         "min_lon": -86.1393803,
         "max_lat": 39.7871856,
-        "max_lon": -86.1388822
+        "max_lon": -86.1388822,
+        "center_point_lat": 39.78677495,
+        "center_point_lon": -86.13913124999999
     },
     "1051403817": {
         "min_lat": 39.7874988,
         "min_lon": -86.1396278,
         "max_lat": 39.788173,
-        "max_lon": -86.1385846
+        "max_lon": -86.1385846,
+        "center_point_lat": 39.787835900000005,
+        "center_point_lon": -86.1391062
     },
     "1051403820": {
         "min_lat": 39.7878752,
         "min_lon": -86.1397239,
         "max_lat": 39.7883918,
-        "max_lon": -86.1391868
+        "max_lon": -86.1391868,
+        "center_point_lat": 39.7881335,
+        "center_point_lon": -86.13945535
     },
     "1065046582": {
         "min_lat": 39.7806487,
         "min_lon": -86.1432554,
         "max_lat": 39.7810725,
-        "max_lon": -86.142373
+        "max_lon": -86.142373,
+        "center_point_lat": 39.7808606,
+        "center_point_lon": -86.1428142
     },
     "1065046583": {
         "min_lat": 39.7798021,
         "min_lon": -86.1448865,
         "max_lat": 39.7805853,
-        "max_lon": -86.1441498
+        "max_lon": -86.1441498,
+        "center_point_lat": 39.7801937,
+        "center_point_lon": -86.14451815
     },
     "1069815051": {
         "min_lat": 39.7729539,
         "min_lon": -86.1526457,
         "max_lat": 39.7729592,
-        "max_lon": -86.1524277
+        "max_lon": -86.1524277,
+        "center_point_lat": 39.77295655,
+        "center_point_lon": -86.1525367
     }
 }

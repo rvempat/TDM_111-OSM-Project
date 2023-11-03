@@ -32,6 +32,8 @@ for element in data["elements"]:
             "min_lon": min_lon,
             "max_lat": max_lat,
             "max_lon": max_lon,
+            "center_point_lat": (min_lat + max_lat) / 2,
+            "center_point_lon": (min_lon + max_lon) / 2,
         }
 
 # Save the minimum and maximum latitude and longitude data to a separate JSON file
