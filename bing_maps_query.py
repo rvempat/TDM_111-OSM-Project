@@ -9,7 +9,8 @@ base_url = "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/"
 common_params = {
     "mapSize": "500,500",
     "mapLayer": "Basemap,Buildings",
-    "key": "", # Ask Rishab for his api key before running
+    "key": "Ain7kUv28hvUkTkX5QfhVU-J_rqqtZMk7lGZNjh_e0ivB3wxcJsR3tAHJVAr8ZdC",
+    "zoomLevel": "19",
 }
 
 # Load the dataset of IDs and their corresponding coordinates from min_max_coords.json

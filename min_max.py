@@ -27,13 +27,19 @@ for element in data["elements"]:
                 min_lon = min(min_lon, lon)
                 max_lon = max(max_lon, lon)
 
+                # Calculate the center point of the "way"
+                center_point_lat = round((min_lat + max_lat) / 2, 6)
+                center_point_lon = round((min_lon + max_lon) / 2, 6)
+
+
         way_min_max_coords[way_id] = {
             "min_lat": min_lat,
             "min_lon": min_lon,
             "max_lat": max_lat,
             "max_lon": max_lon,
-            "center_point_lat": (min_lat + max_lat) / 2,
-            "center_point_lon": (min_lon + max_lon) / 2,
+            "center_point_lat" : center_point_lat,
+            "center_point_lon" : center_point_lon,
+
         }
 
 # Save the minimum and maximum latitude and longitude data to a separate JSON file
