@@ -10,7 +10,6 @@ common_params = {
     "mapSize": "500,500",
     "mapLayer": "Basemap,Buildings",
     "key": "Ain7kUv28hvUkTkX5QfhVU-J_rqqtZMk7lGZNjh_e0ivB3wxcJsR3tAHJVAr8ZdC",
-    "zoomLevel": "19",
 }
 
 # Load the dataset of IDs and their corresponding coordinates from min_max_coords.json
@@ -18,7 +17,7 @@ with open("min_max_coords.json", "r") as json_file:
     coordinates_data = json.load(json_file)
 
 # Create a directory to store the images
-output_dir = "bing_maps_images"
+output_dir = "bing_maps_images_min_max"
 os.makedirs(output_dir, exist_ok=True)
 
 # Iterate through the dataset and make API requests
