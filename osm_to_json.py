@@ -25,8 +25,11 @@ try:
 
     print(output_json)
 
+    ## json.dump function expects a Python dictionary but this was providing a string before
+    ## corrected code so the json string can be saved directly to the file without calling json.dump
+
     with open('data.json', 'w') as f:
-        json.dump(output_json, f)
+        f.write(output_json)
 
 except requests.exceptions.HTTPError as e:
     print(f"HTTP Error: {e}")
