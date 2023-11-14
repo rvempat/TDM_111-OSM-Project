@@ -11,7 +11,7 @@ def api_url(lat, long):
     key = "Ain7kUv28hvUkTkX5QfhVU-J_rqqtZMk7lGZNjh_e0ivB3wxcJsR3tAHJVAr8ZdC"
     zoomLevel = "19"
     
-    url = f"{base_url}{lat},{long}?mapSize={mapSize}&mapLayer={mapLayer}&key={key}&zoomLevel={zoomLevel}"
+    url = f"{base_url}{lat},{long}{zoomLevel}?mapSize={mapSize}&mapLayer={mapLayer}&key={key}&dc="
 
     response = requests.get(url)
 
