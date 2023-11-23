@@ -6,3 +6,5 @@ satellite images. We use data currently in OSM to train our model. We currently 
 lots in the Indianapolis region.
 
 Bing Maps API Key: Ain7kUv28hvUkTkX5QfhVU-J_rqqtZMk7lGZNjh_e0ivB3wxcJsR3tAHJVAr8ZdC
+
+API Documentation: https://learn.microsoft.com/en-us/bingmaps/rest-services/imagery/get-a-static-map
