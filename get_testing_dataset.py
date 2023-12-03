@@ -3,7 +3,7 @@ import math
 import os
 
 # Ensure the folder exists
-save_dir = 'E:/OSMTestingImages'
+save_dir = 'D:/OSMTestingImages'
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
@@ -12,31 +12,37 @@ min_lat = 39.7416667
 min_long = -86.1833333
 max_lat = 39.7853
 max_long = -86.1340
-ground_resolution = 0.2986  # meters/pixel
+ground_resolution = 0.2986  # meters/pixel; Change this image to adjust zoom level
 
 # Convert ground resolution to delta in degrees for latitude and longitude
 delta_lat = ground_resolution / 111111  # degrees per meter (approximate)
 delta_long = delta_lat / math.cos(math.radians(min_lat))
 
 # Calculate the number of squares within the bounding box
-num_lat = int((max_lat - min_lat) / delta_lat)
-num_long = int((max_long - min_long) / delta_long)
+num_lat = int((max_lat - min_lat) / delta_lat) + 1
+num_long = int((max_long - min_long) / delta_long) + 1
 
 # API parameters
 base_url = "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/"
-params = {
+constant_params = {
     "mapSize": "500,500",
     "mapLayer": "Basemap,Buildings",
-    "key": "Your_BingMapsKey"  # Replace with your actual Bing Maps API key
+    "key": "Ain7kUv28hvUkTkX5QfhVU-J_rqqtZMk7lGZNjh_e0ivB3wxcJsR3tAHJVAr8ZdC"  # Bing Maps API key
 }
 
 # Function to retrieve and save the image
 def get_image(bottom_left_lat, bottom_left_long, top_right_lat, top_right_long):
-    # Define the bounding box for the current square
-    map_area = f"{bottom_left_lat},{bottom_left_long},{top_right_lat},{top_right_long}"
+    # Construct the map area string
+    map_area_value = f"{bottom_left_lat},{bottom_left_long},{top_right_lat},{top_right_long}"
+    
     # Construct the API URL
-    api_url = f"{base_url}{map_area}&mapSize={params['mapSize']}&mapLayer={params['mapLayer']}&key={params['key']}"
-    response = requests.get(api_url)
+    params = {
+        **constant_params,
+        "mapArea": map_area_value
+    }
+
+    response = requests.get(base_url, params=params)
+
     if response.status_code == 200:
         # Construct the file path
         image_filename = os.path.join(save_dir, f"image_{bottom_left_lat}_{bottom_left_long}_{top_right_lat}_{top_right_long}.jpeg")
@@ -45,11 +51,12 @@ def get_image(bottom_left_lat, bottom_left_long, top_right_lat, top_right_long):
             image_file.write(response.content)
         print(f"Downloaded {image_filename}")
     else:
-        print(f"Failed to download image at {bottom_left_lat}, {bottom_left_long}: {response.status_code}")
+        print(f"Failed to get image at {bottom_left_lat}, {bottom_left_long}, {top_right_lat}, {top_right_long}: {response.status_code}")
 
 # Iterate over each square within the bounding box
-for lat_step in range(num_lat + 1):
-    for long_step in range(num_long + 1):
+
+for lat_step in range(5):
+    for long_step in range(5):
         # Calculate the latitude and longitude for the bottom left corner of the square
         bottom_left_lat = min_lat + (lat_step * delta_lat)
         bottom_left_long = min_long + (long_step * delta_long)
