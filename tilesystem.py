@@ -197,19 +197,16 @@ class TileSystem:
                 raise ValueError("Invalid QuadKey digit sequence.")
         return tile_x, tile_y, level_of_detail
 
-"""
-Finds every quadkey within a specified region at a specified zoom level.
-"""
+import requests
+import os
+
 def get_quadkeys_for_region(bottom_left_lat, bottom_left_lon, top_right_lat, top_right_lon, zoom_level):
-    # Convert lat/lon to pixel XY coordinates at the specified zoom level
     bottom_left_pixel_x, bottom_left_pixel_y = TileSystem.lat_long_to_pixel_xy(bottom_left_lat, bottom_left_lon, zoom_level)
     top_right_pixel_x, top_right_pixel_y = TileSystem.lat_long_to_pixel_xy(top_right_lat, top_right_lon, zoom_level)
 
-    # Convert pixel XY coordinates to tile XY coordinates
     bottom_left_tile_x, bottom_left_tile_y = TileSystem.pixel_xy_to_tile_xy(bottom_left_pixel_x, bottom_left_pixel_y)
     top_right_tile_x, top_right_tile_y = TileSystem.pixel_xy_to_tile_xy(top_right_pixel_x, top_right_pixel_y)
 
-    # Generate QuadKeys for all tiles within the specified region
     quadkeys = []
     for tile_x in range(bottom_left_tile_x, top_right_tile_x + 1):
         for tile_y in range(top_right_tile_y, bottom_left_tile_y + 1):
@@ -218,13 +215,45 @@ def get_quadkeys_for_region(bottom_left_lat, bottom_left_lon, top_right_lat, top
 
     return quadkeys
 
-# Returns testing 1554 images (256 x 256 pixels)
+def save_images_for_quadkeys(quadkeys, directory, common_params):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+    for quadkey in quadkeys:
+        tile_x, tile_y, level_of_detail = TileSystem.quad_key_to_tile_xy(quadkey)
+        pixel_x, pixel_y = TileSystem.tile_xy_to_pixel_xy(tile_x, tile_y)
+        lat_top_left, lon_top_left = TileSystem.pixel_xy_to_lat_long(pixel_x, pixel_y, level_of_detail)
+        lat_bottom_right, lon_bottom_right = TileSystem.pixel_xy_to_lat_long(pixel_x + 255, pixel_y + 255, level_of_detail)
+
+        image_title = f"map_{lat_bottom_right}_{lon_top_left}_to_{lat_top_left}_{lon_bottom_right}.jpg"
+        file_path = os.path.join(directory, image_title)
+
+        params = {
+            **common_params,
+            "mapArea": f"{lat_bottom_right},{lon_top_left},{lat_top_left},{lon_bottom_right}",
+            "format": "jpeg"
+        }
+        base_url = "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/"
+
+        response = requests.get(base_url, params=params)
+        if response.status_code == 200:
+            with open(file_path, "wb") as file:
+                file.write(response.content)
+        else:
+            print(f"Failed to get image at {lat_bottom_right}, {lon_top_left}, {lat_top_left}, {lon_bottom_right}: {response.status_code}")
+
+# Example usage
 bottom_left_lat = 39.7416667  # Replace with actual latitude
 bottom_left_lon = -86.1833333  # Replace with actual longitude
-top_right_lat = 39.7853  # Replace with actual latitude
+top_right_lat = 39.7853 # Replace with actual latitude
 top_right_lon = -86.1340  # Replace with actual longitude
 zoom_level = 18
-
 quadkeys = get_quadkeys_for_region(bottom_left_lat, bottom_left_lon, top_right_lat, top_right_lon, zoom_level)
-print(len(quadkeys))
 
+common_params = {
+    "mapSize": "500,500",
+    "mapLayer": "Basemap,Buildings",
+    "key": "Ain7kUv28hvUkTkX5QfhVU-J_rqqtZMk7lGZNjh_e0ivB3wxcJsR3tAHJVAr8ZdC"  # Replace with your Bing Maps API Key
+}
+directory = "D:/OSMTestingImages"
+save_images_for_quadkeys(quadkeys, directory, common_params)
