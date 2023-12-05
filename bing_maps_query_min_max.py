@@ -4,6 +4,7 @@ import json  # Import the json module to work with JSON files
 
 # Define the base API URL
 base_url = "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/"
+PERCENTAGE_CHANGE = 1.001
 
 # Define the query parameters that are common to all requests
 common_params = {
@@ -17,7 +18,7 @@ with open("coordinates.json", "r") as json_file:
     coordinates_data = json.load(json_file)
 
 # Create a directory to store the images
-output_dir = "bing_maps_images_min_max"
+output_dir = "D:/training_dataset/images"
 os.makedirs(output_dir, exist_ok=True)
 
 # Iterate through the dataset and make API requests
