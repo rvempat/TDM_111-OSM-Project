@@ -1,13 +1,11 @@
 
 import tensorflow as tf
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import numpy as np
 import os
 from skimage.transform import resize
 from skimage.io import imread
-
-image_directory = 'bing_maps_images_center_point'
-mask_directory = 'bing_maps_images_mask/bing_maps_images_completed_mask'
+image_directory = 'dataset/images'
+mask_directory = 'dataset/masks'
 TARGET_SIZE = (128, 128)
 
 def load_images_and_masks(image_directory, mask_directory, target_size):
@@ -15,7 +13,7 @@ def load_images_and_masks(image_directory, mask_directory, target_size):
     masks = []
 
     for filename in os.listdir(image_directory):
-        if filename.endswith('.jpeg'):  # or .png, .jpeg
+        if filename.endswith('.jpg'):  # or .png, .jpeg
             img_path = os.path.join(image_directory, filename)
             mask_path = os.path.join(mask_directory, filename)  # Adjust if mask names differ
 
@@ -37,9 +35,10 @@ images, masks = load_images_and_masks(image_directory, mask_directory, TARGET_SI
 
 from sklearn.model_selection import train_test_split
 
+
 X_train, X_val, y_train, y_val = train_test_split(images, masks, test_size=0.1)  # Adjust the test size as needed
 
-import tensorflow as tf
+"""import tensorflow as tf
 from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, Concatenate
 from tensorflow.keras.models import Model
 
@@ -70,7 +69,7 @@ def unet(input_size=(256, 256, 3)):
     return model
 
 # Create the U-Net model
-unet_model = unet()
+unet_model = unet()"""
 
 from sklearn.model_selection import train_test_split
 
@@ -118,7 +117,7 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 
 # Train the model
 # Replace 'X_train', 'y_train', 'X_val', and 'y_val' with your training and validation data
-history = model.fit(X_train, y_train, batch_size=32, epochs=1, validation_data=(X_val, y_val))
+history = model.fit(X_train, y_train, batch_size=32, epochs=25, validation_data=(X_val, y_val))
 
 # Evaluate the model on the test set
 # Replace 'X_test' and 'y_test' with your test data
@@ -186,7 +185,7 @@ def display_original_images(image_directory, num_images=2):
     for i, filename in enumerate(os.listdir(image_directory)):
         if i >= num_images:
             break
-        if filename.endswith('.jpeg'):  # Adjust the file extension as needed
+        if filename.endswith('.jpg'):  # Adjust the file extension as needed
             img_path = os.path.join(image_directory, filename)
             img = imread(img_path)
             axes[i].imshow(img)
@@ -196,7 +195,7 @@ def display_original_images(image_directory, num_images=2):
     plt.show()
 
 # Usage example
-image_directory = '/content/drive/My Drive/dataset1'
+image_directory = 'bing_maps_images_new_images'
 display_original_images(image_directory, num_images=2)
 
 import cv2
