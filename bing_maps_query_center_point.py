@@ -11,7 +11,7 @@ def api_url(lat, long):
     key = "Ain7kUv28hvUkTkX5QfhVU-J_rqqtZMk7lGZNjh_e0ivB3wxcJsR3tAHJVAr8ZdC"
     zoomLevel = "19"
     
-    url = f"{base_url}{lat},{long}{zoomLevel}?mapSize={mapSize}&mapLayer={mapLayer}&key={key}&dc="
+    url = f"{base_url}/{lat},{long}/{zoomLevel}?mapSize={mapSize}&mapLayer={mapLayer}&key={key}"
 
     response = requests.get(url)
 
@@ -31,7 +31,7 @@ with open("coordinates.json", "r") as json_file:
     coordinates_data = json.load(json_file)
 
 # Create a directory to store the images
-output_dir = "bing_maps_images_center_point"
+output_dir = "dataset/images"
 os.makedirs(output_dir, exist_ok=True)
 
 # Iterate through the dataset and make API requests

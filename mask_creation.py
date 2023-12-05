@@ -7,7 +7,7 @@ def generate_url(coords):
     base_url = "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/"
 
     # Create a folder to store the images if it doesn't exist
-    folder_name = "bing_maps_images_mask"
+    folder_name = "dataset/masks"
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
 
@@ -36,7 +36,7 @@ def generate_url(coords):
             print(f"Error querying for way {way_id}: {response.status_code}")
 
 # Load coordinates from min_max_coords.json
-with open("min_max_coords.json", "r") as coords_file:
+with open("coordinates.json", "r") as coords_file:
     coordinates_data = json.load(coords_file)
 
 # Generate URLs based on coordinates and save the images
