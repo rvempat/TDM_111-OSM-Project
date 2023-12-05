@@ -225,7 +225,7 @@ def save_images_for_quadkeys(quadkeys, directory, common_params):
         lat_top_left, lon_top_left = TileSystem.pixel_xy_to_lat_long(pixel_x, pixel_y, level_of_detail)
         lat_bottom_right, lon_bottom_right = TileSystem.pixel_xy_to_lat_long(pixel_x + 255, pixel_y + 255, level_of_detail)
 
-        image_title = f"map_{lat_bottom_right}_{lon_top_left}_to_{lat_top_left}_{lon_bottom_right}.jpg"
+        image_title = f"map_{lat_bottom_right}_{lon_top_left}_{lat_top_left}_{lon_bottom_right}.jpg"
         file_path = os.path.join(directory, image_title)
 
         params = {
@@ -247,7 +247,7 @@ bottom_left_lat = 39.7416667  # Replace with actual latitude
 bottom_left_lon = -86.1833333  # Replace with actual longitude
 top_right_lat = 39.7853 # Replace with actual latitude
 top_right_lon = -86.1340  # Replace with actual longitude
-zoom_level = 18
+zoom_level = 19
 quadkeys = get_quadkeys_for_region(bottom_left_lat, bottom_left_lon, top_right_lat, top_right_lon, zoom_level)
 
 common_params = {
@@ -255,5 +255,5 @@ common_params = {
     "mapLayer": "Basemap,Buildings",
     "key": "Ain7kUv28hvUkTkX5QfhVU-J_rqqtZMk7lGZNjh_e0ivB3wxcJsR3tAHJVAr8ZdC"  # Replace with your Bing Maps API Key
 }
-directory = "D:/OSMTestingImages"
+directory = "D:/OSMTestingImagesZL19"
 save_images_for_quadkeys(quadkeys, directory, common_params)
