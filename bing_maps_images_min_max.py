@@ -13,7 +13,7 @@ common_params = {
 }
 
 # Load the dataset of IDs and their corresponding coordinates from min_max_coords.json
-with open("min_max_coords.json", "r") as json_file:
+with open("coordinates.json", "r") as json_file:
     coordinates_data = json.load(json_file)
 
 # Create a directory to store the images

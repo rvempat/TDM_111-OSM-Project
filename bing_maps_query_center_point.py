@@ -27,7 +27,7 @@ def api_url(lat, long):
         print(f"HTTP request for ID {id} failed with status code: {response.status_code}")
 
 # Load the dataset of IDs and their corresponding coordinates from min_max_coords.json
-with open("min_max_coords.json", "r") as json_file:
+with open("coordinates.json", "r") as json_file:
     coordinates_data = json.load(json_file)
 
 # Create a directory to store the images
