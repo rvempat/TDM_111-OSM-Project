@@ -30,7 +30,7 @@ def generate_url(coords):
 
         if response.status_code == 200:
             # Save the image to the folder
-            with open(f"{folder_name}/image_{way_id}.jpg", "wb") as file:
+            with open(f"{folder_name}/{way_id}_image.jpg", "wb") as file:
                 file.write(response.content)
             print(f"Image for way {way_id} saved")
         else:
