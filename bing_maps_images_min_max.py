@@ -34,7 +34,7 @@ for id, coords in coordinates_data.items():
     # Check for a successful response
     if response.status_code == 200:
         # Save the image data to a file
-        image_file = os.path.join(output_dir, f"{id}_image.jpg")
+        image_file = os.path.join(output_dir, f"image_{id}.jpg")
         with open(image_file, "wb") as file:
             file.write(response.content)
         print(f"Image for ID {id} saved as {image_file}")
